@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--這句話的意思是網頁使用UTF-8的編碼-->
+        <meta charset="UTF-8"></meta> 
+        <!--這裡是從搜尋引擎上看到的標題畫面-->
+        <meta name="descripition" content="這裡面是點點的遊戲紀錄">
+        <!--這是告訴大家說 這個網頁作者是誰-->
+        <meta name="author" content="Dot點點">
+        <!--這裡是從搜尋引擎上的關鍵字-->
+        <meta name="keywords" content="點點的裝備紀錄,點點裝備紀錄">
+         <!--會根據使用的裝置做畫面的調整，後面的標籤是縮方比是100%-->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>點點的網頁</title>
+        <link rel="stylesheet" href="style.css"/>
+        <audio id = "audio_1" src="MaplestoryMusic.mp3" autoplay loop hidden ></audio>
+        <script>
+        var audio = document.getElementById("audio_1");
+        audio.volume = 0.1;
+        </script>
+    </head>
+    
+    <body>
+        
+        <div class="banner">
+            <div class="quote">
+                <p style="color: rgb(36, 72, 192);font-size: 54px;">楓之谷遊玩紀錄區</P>
+            </div>
+        </div>
+        <background-img src="login.jpg">        
+
+        <!--連結&圖片--> <!--網站上顯示的名稱要包起來↓↓↓↓↓-->
+        <BR><BR>
+        <button class="btn1"><a href="page2.html">進入楓之谷裝備紀錄 </a></button>
+        
+        <BR><BR>
+        <button class="btn2"><a href="new page3/page3.html">劍豪示範影片區</a></button> <!--記得要在最前面添加資料夾的名字才可以引入裡面的檔案-->
+        <BR><BR>
+        <a href="new page3/4萬.jpg">酷酷的東西</a>
+        <hr>
+
+    </body>
+
+    <body>
+        <h1>以下是練習用</h1>
+        hello <div style="color: rgb(0, 0, 0);"></div> <!--基本標籤--> 
+            <!--h1~h6 代表字的標題大小 有大排到小 1(最大) ~ 6(最小)-->
+            <!--stytle="color:"你想要加入的顏色 ;"-->
+            <!--font-size:"文字大小記得最後加上px"-->
+           <h3 style="color: blue;font-size:28px">第一篇練習</h3>
+           <p style="background-color:greenyellow">輸入的文字 加入文字背景顏色</p>
+           <p style="margin:0px 20px 0px 0px;padding: 10px 0px 0px 10px; border: 5px dashed rgb(198, 216, 215);width: 100px;height: 30px;">更改外框</p>
+           <p style="border: 15px dashed rgb(117, 97, 97);max-width: 500px;">限定外框的長度或高度(不會隨著網頁的大小作改變，像是上面的綠色底就會改變，而這邊就被限制住了)</p>
+           <b>粗體</b>
+           <br> 
+           <i>斜體</i>
+           <br>
+           <i><b>當b和i一起包近來就會變成粗體斜體</b></i>
+           <br/> <!--換行語句-->
+           <hr/> <!--一個長條直線-->
+        <input type="text" placeholder="請輸入帳號" >
+        <br><br>
+        <input type="password" placeholder="請輸入密碼">
+        <br><br>
+        <input type="date">
+        <br><br>
+        <input type="range">
+        <br><br>
+        <input type="file">
+        <br><br>
+        <input type="checkbox">
+        <br><br>
+        <textarea placeholder="請輸入觀看完後的心得 不限字數"></textarea>
+        <hr>
+    </body>
+</html>

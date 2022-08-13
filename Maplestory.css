@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    }
+    h1{
+        /* 置中 */
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        font-size:40px;
+        color:rgb(250, 132, 132);
+        /* 圖層在最上面 (預設是0) */
+        z-index:1 ;
+        padding-bottom: 0px;
+    }
+
+    .video-back{
+        /* fixed是把它固定住 不要動 */
+        position: fixed;
+        top: -100px;;
+        left:0;
+        /* 設定最小寬度為100% */
+        min-width: 100%;
+        /* 設定最小高度為100% */
+        min-height: 100%;
+        
+    }
